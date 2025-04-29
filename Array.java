@@ -4,7 +4,7 @@ public class Array {
 	
 	public static void main(String[] args) {
 		
-		int[] i= new int[6];
+		int[] i= new int[7];
 		
 		
 		i[0]=5;
@@ -13,6 +13,7 @@ public class Array {
 		i[3]=20;
 		i[4]=25;
 		i[5]=30;
+		i[6]=35;
 		
 		System.out.println(i[0]);
 		System.out.println(i[1]);
@@ -20,6 +21,7 @@ public class Array {
 		System.out.println(i[3]);
 		System.out.println(i[4]);
 		System.out.println(i[5]);
+		System.out.println(i[6]);
 		
 		int j=1;
 		do {
@@ -28,7 +30,7 @@ public class Array {
 		
 		} 
 		
-		while (j<=5);
+		while (j<=6);
 		
 				
 		
